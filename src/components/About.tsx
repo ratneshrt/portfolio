@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export default function About() {
   const images = [
-    "https://i.pinimg.com/736x/da/e4/41/dae4411d9c292700661d60cb05f6e53b.jpg",
+    "https://i.pinimg.com/736x/d8/88/8d/d8888d7662619404c89cbd5c76db5048.jpg",
     "https://i.pinimg.com/736x/c8/0a/ef/c80aef5ed6c6c7a172f4d7e1829aa76b.jpg",
     "https://i.pinimg.com/736x/48/5f/70/485f7018fd461c8d255777e85d321784.jpg",
     "https://i.pinimg.com/736x/1e/e4/1c/1ee41cb4da9f181626266fe21ab6f1ca.jpg",

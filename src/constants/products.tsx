@@ -52,21 +52,21 @@ export const products = [
     ),
   },
   {
-    href: "https://github.com/ratneshrt/hono-medium-boilerplate/tree/main",
-    title: "InkHive",
+    href: "https://atomixDrop.kheti.me",
+    title: "atomixDrop",
     description:
-      "A secure blogging platform with user authentication, built with React and Hono, optimized for performance with Cloudflare Workers.",
+      "AtomixDrop: Fast, secure P2P file sharing with WebRTC and Next.js.",
     thumbnail: sidefolioMoonbeam,
     images: [sidefolioMoonbeam, sidefolioMoonbeam2],
-    stack: ["Reactjs", "Tailwindcss", "Hono", "CloudFare Workers", "PostgreSQL", "Prisma ORM"],
-    slug: "inkhive",
+    stack: ["Nextjs", "WebRTC", "Socket.io", "Simple-Peer", "TailwindCSS"],
+    slug: "atomixDrop",
     content: (
       <div>
         <p>
-          InkHive is a blogging platform designed to offer a seamless and secure experience for managing and publishing content. Built using React and Tailwind CSS for a modern and responsive interface, the app provides five core features, including user authentication and comprehensive blog management. The backend, developed with Hono, includes four secure routes to handle functionalities like user sign-up, sign-in, and blog retrieval, ensuring efficient and reliable access to user data and content.{" "}
+          AtomixDrop is a cutting-edge peer-to-peer (P2P) file-sharing application designed to facilitate fast, secure, and decentralized file transfers between users. Built with Next.js for the frontend and a Node.js backend for signaling, AtomixDrop leverages WebRTC to enable direct communication between devices without relying on intermediate servers. This ensures that files are transferred quickly and securely, with no third-party involvement.{" "}
         </p>
         <p>
-          To enhance performance and scalability, the backend is deployed on Cloudflare Workers, leveraging its serverless architecture for low-latency operations. Data validation is powered by Zod, ensuring robust input validation to maintain data integrity and prevent errors across the platform. With its optimized design and secure architecture, InkHive delivers a dependable solution for bloggers to create, manage, and share their content effortlessly.
+        The application uses Socket.io for real-time signaling to establish P2P connections, while Tailwind CSS provides a sleek and responsive user interface. With features like drag-and-drop file uploads, real-time progress tracking, and transfer speed monitoring, AtomixDrop offers a seamless and intuitive user experience for sharing files of any size.
         </p>{" "}
       </div>
     ),

@@ -17,18 +17,18 @@ export const TechStack = () => {
 
       className: "h-10 w-10",
     },
-    // {
-    //   title: "Figma",
-    //   src: "/images/logos/figma.png",
+    {
+      title: "Kubernetes",
+      src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/500px-Kubernetes_logo_without_workmark.svg.png",
 
-    //   className: "h-10 w-8",
-    // },
-    // {
-    //   title: "Framer Motion",
-    //   src: "/images/logos/framer.webp",
+      className: "h-10 w-8",
+    },
+    {
+      title: "CloudFlare",
+      src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Cloudflare_Logo.png/1200px-Cloudflare_Logo.png",
 
-    //   className: "h-10 w-10",
-    // },
+      className: "h-10 w-10",
+    },
     {
       title: "Node",
       src: "/images/logos/node.png",

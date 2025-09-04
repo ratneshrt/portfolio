@@ -4,10 +4,54 @@ import sidefolioAlgochurn from "public/images/sidefolio-katana.png";
 import sidefolioAlgochurn2 from "public/images/sidefolio-katana-2.png";
 import sidefolioMoonbeam from "public/images/sidefolio-moonbeam.png";
 import sidefolioMoonbeam2 from "public/images/sidefolio-moonbeam-2.png";
+import sidefolioVaulty from "public/images/sidefolioVaulty.jpeg"
+import sidefolioVaulty_2 from "public/images/sidefolioVaulty_2.jpeg"
+import sidefoliovercel from "public/images/sidefoliovercel.png"
+import sidefoliovercel_2 from "public/images/sidefoliovercel_2.png"
 
 export const products = [
   {
-    href: "https://musix.kheti.me/",
+    href: "https://github.com/ratneshrt/vercel",
+    title: "Vercel",
+    description:
+      "A self-built Vercel clone that lets you deploy, manage, and host web applications with ease.",
+    thumbnail: sidefoliovercel,
+    images: [sidefoliovercel, sidefoliovercel_2],
+    stack: ["Reactjs", "Express", "CloudFlare R2", "Tailwindcss"],
+    slug: "vercel",
+    content: (
+      <div>
+        <p> 
+          This project is a self-built Vercel clone that handles the full workflow of deploying and hosting web applications using Cloudflare R2 for storage. It recreates the process of taking a GitHub repository, building it, and serving it through a generated URL, all tied together with a React frontend for accessibility. 
+        </p>
+        <p> 
+          The system works by first uploading repository contents to R2 through the upload service, which assigns a unique ID. The deploy service then fetches the files from R2, builds the project, and pushes the build output back into R2 under the same ID. Finally, the request handler delivers the application by exposing a URL that points to the built files, with the entry served from the generated file like, <code>index.js</code>. While it doesn’t support Next.js projects, it effectively demonstrates how deployment pipelines, storage, and request routing come together to replicate the core functionality of platforms like Vercel. 
+        </p>
+      </div>
+    ),
+  },
+  {
+    href: "https://vaultly-rho.vercel.app/",
+    title: "Vaulty",
+    description:
+      "Vaultly is your personal mini Google Drive built on AWS S3, giving you full control to store, manage, and share files with ease.",
+    thumbnail: sidefolioVaulty,
+    images: [sidefolioVaulty, sidefolioVaulty_2],
+    stack: ["Nextjs", "AWS S3", "Tailwindcss"],
+    slug: "vaulty",
+    content: (
+      <div>
+        <p>
+          Vaultly is a personal cloud storage platform built on top of AWS S3, giving you a mini Google Drive–like experience tailored for your own use. It lets you manage your S3 bucket with an intuitive interface, making file organization and sharing simple and efficient.{" "}
+        </p>
+        <p>
+          With Vaultly, you can create folders, upload, download, preview, rename, and delete files, as well as share them through generated links. The app securely stores your credentials in localStorage, so you stay connected until you choose to disconnect. Designed to streamline file management, Vaultly combines the power of AWS S3 with the convenience of a user-friendly cloud storage solution.
+        </p>{" "}
+      </div>
+    ),
+  },
+  {
+    href: "https://musix-five.vercel.app/",
     title: "Musix",
     description:
       "A music app where users collaboratively upvote songs, with the most popular tracks playing in real-time.",
@@ -32,7 +76,7 @@ export const products = [
     ),
   },
   {
-    href: "https://katana.kheti.me/",
+    href: "https://katana-git-dish.vercel.app/",
     title: "Katana",
     description:
       "An app that assigns an anime character to a user based on their GitHub profile using the GitHub and Jikan APIs.",
@@ -52,7 +96,7 @@ export const products = [
     ),
   },
   {
-    href: "https://atomixDrop.kheti.me",
+    href: "https://atomixdrop.vercel.app/",
     title: "atomixDrop",
     description:
       "AtomixDrop: Fast, secure P2P file sharing with WebRTC and Next.js.",

@@ -173,7 +173,7 @@ export const products = [
     content: (
       <div>
         <p>
-          This project is a browser-based coding environment that combines a
+          This project is a browser-based coding environment that combines a{" "}
           <strong>file explorer</strong>, an integrated <strong>code editor</strong>,
           and a <strong>terminal</strong> into a single application. It allows users
           to manage project files, write code, and execute commands seamlessly within
